@@ -1,0 +1,5 @@
+3.7 We will run pytest from the folder unit_testing_best_practice. Pytest will automatically discover and run all the tests in the tests directory.
+This doesn't work for me, so I used the alternative method of running it from the test folder but I'm confident that 
+it should have worked. 
+
+3.11 We need to fix the test to make the test pass change the 5 into a 4 because 3+1 = 4 and we want the function to add 1 to the number that we are inserting. 
