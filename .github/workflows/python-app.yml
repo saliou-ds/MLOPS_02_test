@@ -30,7 +30,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Set PYTHONPATH
       run: |
-        export PYTHONPATH=$PYTHONPATH:/home/runner/work/MLOPS_03_test/unit_testing_best_practice/src
+        export PYTHONPATH=$PYTHONPATH:/home/runner/work/MLOPS_03_test/MLOPS_03_test/unit_testing_best_practice/src
     - name: Test with pytest
       run: |
         pytest
