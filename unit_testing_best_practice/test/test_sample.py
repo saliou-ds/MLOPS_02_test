@@ -1,6 +1,7 @@
 import sys
+import os
 # Always run from unit_testing_best_practice/test
-sys.path += ['../src'] 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 from sample import *
 
