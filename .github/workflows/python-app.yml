@@ -34,3 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Print PYTHONPATH
+      run: |
+        echo $PYTHONPATH
